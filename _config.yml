@@ -13,25 +13,34 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
-email:
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
-minimal_mistakes_skin: dark
-search: true
+locale                      : "en-US"
+title                       : GerGiu
+email                       : myMail@mail.com
+title_separator             : "-"
+subtitle                    : "site tagline that appears below site title in masthead"
+name                        : "Giuseppe G."
+description                 : "An amazing website."
+url                         : "https://https://gergiu.github.io/"
+baseurl                     : # the subpath of your site, e.g. "/blog"
+repository                  : "mmistakes/minimal-mistakes"
+teaser                      : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                        : "/assets/images/logoGG.png"
+masthead_title              : "MastHead Title"
+
+twitter_username            : username
+github_username             : username
+    
+minimal_mistakes_skin       : dark
+search                      : true
 
 # Build settings
-markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
+markdown                    : kramdown
+remote_theme                : mmistakes/minimal-mistakes
 # Outputting
-permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+permalink                   : /:categories/:title/
+paginate                    : 5 # amount of posts to show
+paginate_path               : /page:num/
+timezone                    : # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
