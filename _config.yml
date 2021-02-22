@@ -26,6 +26,14 @@ repository                  : "mmistakes/minimal-mistakes"
 teaser                      : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                        : "/assets/images/logoGG.png"
 masthead_title              : "MastHead Title"
+# breadcrumbs            : false # true, false (default)
+words_per_minute         : 200
+comments:
+  provider: "facebook"
+  facebook:
+    appid: # optional
+    num_posts: # 5 (default)
+    colorscheme: # "light" (default), "dark"
 
 twitter_username            : username
 github_username             : username
@@ -108,6 +116,7 @@ defaults:
       comments: true
       share: true
       related: true
+      show_date: true
   # _pages
   - scope:
       path: "_pages"
