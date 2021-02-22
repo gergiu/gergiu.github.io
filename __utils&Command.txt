@@ -23,7 +23,7 @@ https://docs.github.com/en/github/working-with-github-pages/testing-your-github-
 
 GITHUB JEKYLL-THEME:
 https://github.com/topics/jekyll-theme?o=desc&s=stars
-
+MINIMAL MISTAKES	:	https://mmistakes.github.io/minimal-mistakes/
 
 
 
