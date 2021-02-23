@@ -1,4 +1,5 @@
 ---
+author: Giuseppe Ger
 title: "Post: Quote"
 categories:
   - Blog
