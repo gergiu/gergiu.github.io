@@ -27,15 +27,6 @@ teaser                      : # path of fallback teaser image, e.g. "/assets/ima
 logo                        : "/assets/images/logoGG.png"
 masthead_title              : "MastHead Title"
 
-excerpt: "This post should [...]"
-header:
-  overlay_image: /assets/images/bernard-hermant-IhcSHrZXFs4-unsplash.jpg
-  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-  actions:
-    - label: "More Info"
-      url: "https://unsplash.com"
-
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
