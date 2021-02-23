@@ -35,11 +35,23 @@ comments:
     num_posts: # 5 (default)
     colorscheme: # "light" (default), "dark"
 
+atom_feed:
+  path                   : # blank (default) uses feed.xml
+  hide                   : # true, false (default)
+
 twitter_username            : username
 github_username             : username
     
 minimal_mistakes_skin       : dark
 search                      : true
+search_full_content      : # true, false (default)
+search_provider          : # lunr (default), algolia, google
+
+# SEO Related
+google_site_verification :
+bing_site_verification   :
+yandex_site_verification :
+naver_site_verification  :
 
 # Build settings
 markdown                    : kramdown
@@ -74,6 +86,7 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+# Site author [https://mmistakes.github.io/minimal-mistakes/docs/configuration/#site-author]
 author:
   name   : "First Lastname"
   avatar : "/assets/images/bio-photo.jpg"
@@ -92,6 +105,7 @@ author:
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/"
 
+# Site footer [https://mmistakes.github.io/minimal-mistakes/docs/configuration/#site-footer]
 footer:
   links:
     - label: "Twitter"
